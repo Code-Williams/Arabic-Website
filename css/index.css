@@ -336,3 +336,7 @@ header .logo {
   line-height: 5px;
   color: rgb(235, 233, 233);
 }
+
+.no-border{
+  border: none;
+}
