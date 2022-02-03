@@ -1,0 +1,338 @@
+/* Register fonts */
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/font-vazir/Vazir.eot");
+  src: url("../fonts/font-vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-vazir/Vazir.woff") format("woff"),
+    url("../fonts/font-vazir/Vazir.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/font-vazir/Vazir-Bold.eot");
+  src: url("../fonts/font-vazir/Vazir-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/font-vazir/Vazir-Bold.woff") format("woff"),
+    url("../fonts/font-vazir/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/font-vazir/Vazir-Light.eot");
+  src: url("../fonts/font-vazir/Vazir-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/font-vazir/Vazir-Light.woff") format("woff"),
+    url("../fonts/font-vazir/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("../fonts/font-yekan/Yekan.eot");
+  src: url("../fonts/font-yekan/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-yekan/Yekan.woff") format("woff"),
+    url("../fonts/font-yekan/Yekan.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("../fonts/font-yekan/yekan-regular.eot");
+  src: url("../fonts/font-yekan/yekan-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/font-yekan/yekan-regular.woff") format("woff"),
+    url("../fonts/font-yekan/yekan-regular.eot") format("truetype");
+  font-weight: lighter;
+}
+
+/* All tags */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Yekan";
+  direction: rtl;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+li {
+  list-style: none;
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a.button {
+  padding: 5px 10px;
+  background: linear-gradient(
+    333deg,
+    rgb(43, 1, 121) 0%,
+    rgb(43, 1, 121) 0%,
+    rgb(121, 56, 242) 100%,
+    rgb(121, 56, 242) 100%
+  );
+  color: white;
+  border: 1px solid #733dd8;
+  border-radius: 7px;
+  word-spacing: 3px;
+  font-size: 16px;
+  user-select: none;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,
+    background 0.2s ease-in-out;
+}
+
+a.button:active {
+  background: white;
+  border: 1px solid #733dd8;
+  color: #733dd8;
+}
+
+a.button:hover {
+  box-shadow: 0 0 15px 1px #733dd8;
+}
+
+/* Header styles */
+
+header {
+  box-shadow: 0 0 10px 5px rgb(214, 214, 214);
+  height: 65px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+}
+
+#fix-top {
+  width: 100%;
+  height: 65px;
+  display: block;
+}
+
+#header-right {
+  float: right;
+  width: 50%;
+}
+
+#header-left {
+  float: left;
+  width: 50%;
+}
+
+#header-ul {
+  height: 100%;
+}
+
+.logo {
+  width: 30px;
+  float: right;
+}
+
+header .logo {
+  margin-left: 10px;
+}
+
+.header-main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: "Vazir";
+  font-weight: 800;
+  font-size: 30px;
+  float: left;
+  margin-left: 15px;
+  user-select: none;
+  color: #733dd8;
+}
+
+.header-subMenu {
+  margin-right: 10px;
+}
+
+.header-subMenu-link {
+  padding: 3px 7px;
+  font-weight: lighter;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.header-subMenu-link:hover {
+  background-color: #733dd8;
+  color: white;
+}
+
+/* Top side styles */
+
+.top-side {
+  width: 50%;
+  height: 70vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-side-right {
+  float: right;
+}
+
+.top-side-left {
+  float: left;
+}
+
+.top-left-title {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.top-left-subTitle {
+  margin-bottom: 40px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.top-right-image {
+  border-radius: 50px;
+  max-width: 600px;
+}
+
+.top-left-description {
+  color: gray;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.top-left-description-link {
+  color: rgb(147, 147, 229);
+}
+
+/* Top Items Styles */
+
+.top-items {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-items-li {
+  background-color: white;
+  padding: 5px 10px;
+  width: 220px;
+  height: 220px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top-items-title {
+  margin-top: 5px;
+}
+
+.top-items-description {
+  color: gray;
+  font-size: 13px;
+  margin-top: 7px;
+  width: 170px;
+  text-align: center;
+}
+
+
+/* --------- KHADAMAT */
+#khadamat{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+#khadamat p{
+  font-size: 50px;
+  color: #733dd8;
+  font-weight: bold;
+}
+
+#khadamat-ul{
+  background-color: white;
+  width: 70%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#khadamat-ul:hover{
+  box-shadow: 0 0 26px -8px grey;
+
+}
+
+.khadamat-li{
+  margin: 3px;
+  line-height: 15px;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-left: 2px solid rgb(121, 56, 242);
+  width: 300px;
+  height: 30px;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+}
+
+.number{
+  background-color: rgb(121, 56, 242);
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+  direction: ltr;
+  border-radius: 50px;
+  float: left;
+  max-height: 70px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  align-items: center;
+}
+
+.whatsapp-icon{
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 0;
+  margin-top: 4px;
+  line-height: 5px;
+  color: rgb(235, 233, 233);
+}
