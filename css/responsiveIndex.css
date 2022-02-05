@@ -67,4 +67,12 @@
     #header-right{
         width: 100%;
     }
+
+    .top-items{
+        display: block;
+    }
+
+    .top-items-li{
+        margin: 10px;
+    }
 }
