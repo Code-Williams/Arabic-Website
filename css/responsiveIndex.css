@@ -1,0 +1,58 @@
+@media screen and (max-width: 1210px) {
+    .top-right-image{
+        max-width: 450px;
+    }
+
+    .top-left-title{
+        font-size: 45px;
+    }
+
+    .top-items{
+        width: 97%;
+        justify-content: space-between;
+    }
+
+    .top-items-li{
+        transform: scaleX(0.9) scaleY(0.9);
+    }
+
+    #khadamat-ul{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    #header-right{
+        width: 80%;
+    }
+
+    .top-right-image{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width : 820px) {
+    .top-left-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .top-left-subTitle{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width : 414px) {
+    header{
+        top: auto;
+        bottom: 0;
+    }
+
+    .top-side-left{
+        width: 100%;
+    }
+
+    .top-side-right{
+        width: 100%;
+    }
+}
