@@ -40,12 +40,35 @@
     .top-left-subTitle{
         font-size: 15px;
     }
+
+    #header-left{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .khadamat-li{
+        width: 90%;
+        padding: 0 10px;
+        font-size: 15px;
+        border: none;
+        border-bottom: 1px solid rgb(121, 56, 242);
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
 }
 
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 600px) {
     header{
         top: auto;
         bottom: 0;
+    }
+
+    .top-side{
+        height: auto;
+        min-height: auto;
     }
 
     .top-side-left{
@@ -54,6 +77,10 @@
 
     .top-side-right{
         width: 100%;
+    }
+
+    .top-left-subTitle{
+        width : 80%
     }
 
     .logo-text{
@@ -70,10 +97,29 @@
 
     .top-items{
         display: block;
-        margin: 0;
+        margin: 0 auto;
+        width: 75%;
     }
 
     .top-items-li{
         margin: 10px;
+        width: 180px;
+        height: 190px;
+    }
+    
+    #footer-ul{
+        padding-bottom: 50px;
+    }
+
+    .footer-subItem{
+        font-size: 13px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-height : 2000px) {
+    .top-side{
+        margin-top: 100px;
+        height: auto;
     }
 }
