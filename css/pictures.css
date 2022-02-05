@@ -26,7 +26,7 @@ margin: 20px;
 }
 
 .sub-picture > img:hover{
-    transform: scaleX(1.5) scaleY(1.5);
+    transform: scaleX(1.2) scaleY(1.2);
     box-shadow: none;
 }
 
