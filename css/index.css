@@ -1,5 +1,9 @@
 /* Register fonts */
 
+html{
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: Vazir;
   src: url("../fonts/font-vazir/Vazir.eot");
@@ -339,4 +343,29 @@ header .logo {
 
 .no-border{
   border: none;
+}
+
+.plus::after{
+  content: "+";
+}
+
+#footer-ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  height: 150px;
+  margin-top: 100px;
+}
+
+.icon{
+  max-width: 30px;
+  margin: 4px;
+}
+
+.icon-handler-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
