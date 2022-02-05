@@ -63,5 +63,8 @@
     .header-subMenu-link{
         font-size: 10px;
     }
+    
+    #header-right{
+        width: 100%;
     }
 }
