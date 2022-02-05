@@ -23,7 +23,7 @@
     transform: scaleX(1.1) scaleY(1.1);
 }
 
-#about-us > div > pre:first-child{
+#short-text > p:last-child{
     margin-bottom: 10px;
     padding-bottom: 10px;
     font-size: 18px;
