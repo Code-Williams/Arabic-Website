@@ -55,4 +55,13 @@
     .top-side-right{
         width: 100%;
     }
+
+    .logo-text{
+        display: none;
+    }
+
+    .header-subMenu-link{
+        font-size: 10px;
+    }
+    }
 }
