@@ -117,6 +117,10 @@
         width: 100%;
     }
 
+    .mySlides img{
+        border-radius: 0 !important;
+    }
+
     .top-left-subTitle{
         width : 80%
     }
